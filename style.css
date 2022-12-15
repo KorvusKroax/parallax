@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.wrapper {
+    height: 100vh;
+
+    perspective: 1px;
+
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+header {
+    height: 90%;
+    position: relative;
+    z-index: -1;
+
+    transform-style: preserve-3d;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background,
+.foreground {
+    position: absolute;
+    /* width: 50%; */
+    /* height: 50%; */
+    object-fit: cover;
+    z-index: -1;
+}
+
+.background {
+    top: 0;
+    left: 0;
+    transform: translateZ(-1px) scale(2);
+}
+
+.foreground {
+    bottom: 0;
+    right: 0;
+    transform: translateZ(-.5px) scale(1.5);
+}
+
+h1 {
+    font-size: 7rem;
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+
+
+
+main {
+    font-size: 2em;
+    background-color: rgb(255, 255, 255, .33);
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: #ddd;
+}
+
+
+
+
+
+/* https://www.youtube.com/watch?v=mxHoPYFsTuk&t=309s&ab_channel=WebDevSimplified */
+
+/* https://www.youtube.com/watch?v=3Fs2TyZkA4Q&ab_channel=w3newbie */
