@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    margin: 0;
+}
+
+
+
+main {
+    width: 100%;
+
+    background-color: #ddd;
+    color: #333;
+}

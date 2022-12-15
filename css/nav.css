@@ -1,0 +1,26 @@
+nav {
+    background-color: slategray;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+
+    list-style-type: none;
+}
+
+nav a {
+    color: #ddd;
+
+    font-size: 1.25em;
+
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: goldenrod;
+}
