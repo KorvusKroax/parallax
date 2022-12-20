@@ -39,12 +39,8 @@
         </p>
     </main>
 
-    <footer class="parallax">
-        <img class="background" src="https://source.unsplash.com/random?sig=1">
-
-        <!-- <br> -->
+    <footer>
         <h2>Footer</h2>
-        <!-- <br> -->
     </footer>
 
 </body>
