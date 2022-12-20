@@ -13,14 +13,16 @@
 </head>
 
 <body>
-    <header>
+    <header class="parallax">
         <img class="background" src="https://source.unsplash.com/random?sig=1">
         <!-- <img class="foreground" src="https://source.unsplash.com/random?sig=2"> -->
+
         <h1>Parallax</h1>
     </header>
 
-    <main>
+    <main class="parallax">
         <img class="background" src="https://source.unsplash.com/random?sig=2">
+
         <p>
             Aenean ipsum velit, tincidunt eu dignissim quis, aliquam sit amet est. Ut quis turpis lacus. Vestibulum rutrum nulla lobortis, viverra tortor a, varius metus. Donec vitae cursus est, id tempus ante. Pellentesque lacinia tincidunt massa, quis gravida ante consectetur nec. Nam pellentesque nisi diam. Maecenas semper ante eget lacus tempor, non efficitur tellus faucibus. Nam id varius purus, rhoncus laoreet neque. Aenean accumsan leo nisl, nec sollicitudin felis gravida ac. Nulla viverra pellentesque neque nec sollicitudin. Aenean at risus orci. Aenean efficitur velit vitae felis molestie, eget condimentum elit faucibus. Nunc mauris tortor, viverra vel varius non, interdum id nunc. Morbi et dapibus dui, id aliquam elit. Aliquam porttitor magna finibus, tempus nisi eget, facilisis tellus. Vivamus sed neque sit amet elit molestie eleifend.
             Quisque scelerisque erat ut libero accumsan bibendum. Nam luctus varius sapien, quis varius enim venenatis eu. Nam faucibus nisl vel sagittis aliquam. Donec in velit porta, fermentum tortor et, tempus mauris. Sed viverra posuere fringilla. Nam convallis non arcu a luctus. Morbi posuere porta lectus. Nunc varius est nec tincidunt bibendum.
@@ -37,7 +39,12 @@
         </p>
     </main>
 
-    <footer>
+    <footer class="parallax">
+        <img class="background" src="https://source.unsplash.com/random?sig=1">
+
+        <!-- <br> -->
+        <h2>Footer</h2>
+        <!-- <br> -->
     </footer>
 
 </body>
