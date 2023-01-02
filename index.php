@@ -9,13 +9,14 @@
 
     <link rel="stylesheet" href="style.css">
 
+    <script src="script.js" defer></script>
+
     <title>parallax</title>
 </head>
 
 <body>
+
     <div class="parallax">
-
-
 
         <header class="parallax-group">
 
@@ -37,12 +38,12 @@
 
         <main class="parallax-group">
 
-            <div class="parallax-layer background">
+            <div class="parallax-layer main-background">
                 <h1>Parallax main background</h1>
                 <!-- <img src="https://source.unsplash.com/random/1500x1000?sig=3"> -->
             </div>
 
-            <div class="parallax-layer foreground">
+            <div class="parallax-layer main-foreground">
                 <h1>Parallax main foreground</h1>
                 <!-- <img src="https://source.unsplash.com/random/1500x1000?sig=4"> -->
             </div>
@@ -88,9 +89,10 @@
 
         </footer>
 
-
-
     </div>
+
+    <button class="back-to-top-button" onclick="backToTop()">&#11165;</button>
+
 </body>
 
 </html>
