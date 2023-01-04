@@ -7,9 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta author="Korvus">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/parallax.css">
+    <link rel="stylesheet" href="css/back_to_top.css">
 
-    <script src="script.js" defer></script>
+    <script src="js/back_to_top.js" defer></script>
 
     <title>parallax</title>
 </head>
@@ -30,7 +32,7 @@
                 <!-- <img src="https://source.unsplash.com/random/1500x1000?sig=2"> -->
             </div>
 
-            <h1>Parallax header</h1>
+            <h1>Header</h1>
 
         </header>
 
@@ -38,17 +40,17 @@
 
         <main class="parallax-group">
 
-            <div class="parallax-layer main-background">
+            <div class="parallax-layer background">
                 <h1>Parallax main background</h1>
                 <!-- <img src="https://source.unsplash.com/random/1500x1000?sig=3"> -->
             </div>
 
-            <div class="parallax-layer main-foreground">
+            <div class="parallax-layer foreground">
                 <h1>Parallax main foreground</h1>
                 <!-- <img src="https://source.unsplash.com/random/1500x1000?sig=4"> -->
             </div>
 
-            <h1>Parallax main</h1>
+            <h1>Main</h1>
             <p>
                 Aenean ipsum velit, tincidunt eu dignissim quis, aliquam sit amet est. Ut quis turpis lacus. Vestibulum rutrum nulla lobortis, viverra tortor a, varius metus. Donec vitae cursus est, id tempus ante. Pellentesque lacinia tincidunt massa, quis gravida ante consectetur nec. Nam pellentesque nisi diam. Maecenas semper ante eget lacus tempor, non efficitur tellus faucibus. Nam id varius purus, rhoncus laoreet neque. Aenean accumsan leo nisl, nec sollicitudin felis gravida ac. Nulla viverra pellentesque neque nec sollicitudin. Aenean at risus orci. Aenean efficitur velit vitae felis molestie, eget condimentum elit faucibus. Nunc mauris tortor, viverra vel varius non, interdum id nunc. Morbi et dapibus dui, id aliquam elit. Aliquam porttitor magna finibus, tempus nisi eget, facilisis tellus. Vivamus sed neque sit amet elit molestie eleifend.
                 Quisque scelerisque erat ut libero accumsan bibendum. Nam luctus varius sapien, quis varius enim venenatis eu. Nam faucibus nisl vel sagittis aliquam. Donec in velit porta, fermentum tortor et, tempus mauris. Sed viverra posuere fringilla. Nam convallis non arcu a luctus. Morbi posuere porta lectus. Nunc varius est nec tincidunt bibendum.
@@ -85,7 +87,7 @@
                 <h1>Parallax footer foreground</h1>
             </div>
 
-            <h1>Parallax footer</h1>
+            <h1>Footer</h1>
 
         </footer>
 

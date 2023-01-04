@@ -1,0 +1,70 @@
+.parallax {
+    height: 100vh;
+
+    perspective: 1px;
+    perspective-origin: center top;
+
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    scroll-behavior: smooth;
+}
+
+.parallax-group {
+    position: relative;
+
+    transform-style: preserve-3d;
+
+    background-color: rgb(255, 0, 0, .25);
+    border: 3px solid red;
+}
+
+.parallax-layer {
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    /* top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; */
+}
+
+
+
+.foreground {
+    translate: 0 0 -.5px;
+    /* scale: 1.5; */
+
+    background-color: rgb(0, 255, 0, .25);
+    border: 3px solid green;
+}
+
+.background {
+    translate: 0 0 -1px;
+    /* scale: 2; */
+
+    background-color: rgb(0, 0, 255, .25);
+    border: 3px solid blue;
+}
+
+
+
+main .parallax-layer.background {
+    translate: 0 calc(var(--header-height) * 1) -1px;
+}
+
+main .parallax-layer.foreground {
+    translate: 0 calc(var(--header-height) * .5) -.5px;
+}
+
+
+
+
+
+
+/* https://www.youtube.com/watch?v=mxHoPYFsTuk&t=309s&ab_channel=WebDevSimplified */
+
+/* https://www.youtube.com/watch?v=3Fs2TyZkA4Q&ab_channel=w3newbie */
+
+/* https://keithclark.co.uk/articles/pure-css-parallax-websites/#parallax-sections */
