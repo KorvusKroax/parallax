@@ -5,11 +5,13 @@ nav {
         transparent);
         /* red calc(100% - 1em)); */
 
-    transition: background-color .5s;
+    transition: background-color 1s;
 }
 
 nav:hover {
     background-color: white;
+
+    transition: background-color .1s;
 }
 
 
@@ -21,9 +23,14 @@ nav .contactbar {
     background-color: rgb(255, 255, 255, .75);
 
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 4em;
 }
+
+/* nav .socials {
+    display: flex;
+    gap: 2em;
+} */
 
 
 

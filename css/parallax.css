@@ -41,7 +41,7 @@
 
 .foreground {
     translate: 0 0 -.5px;
-    scale: 1.5;
+    /* scale: 1.5; */
 
     /* justify-content: flex-start;
     align-items: flex-start; */
@@ -52,7 +52,7 @@
 
 .background {
     translate: 0 0 -1px;
-    scale: 2;
+    /* scale: 2; */
 
     /* justify-content: flex-end;
     align-items: flex-end; */
@@ -63,12 +63,12 @@
 
 main .parallax-layer.foreground {
     /* height: calc(100% / 1.5); */
-    translate: 0 calc(var(--header-height) * .5) -.5px;
+    /* translate: 0 calc(var(--header-height) * .5) -.5px; */
 }
 
 main .parallax-layer.background {
     /* height: calc(100% / 2); */
-    translate: 0 calc(var(--header-height) * 1) -1px;
+    /* translate: 0 calc(var(--header-height) * 1) -1px; */
 }
 
 
