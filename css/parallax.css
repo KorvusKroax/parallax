@@ -15,9 +15,11 @@
 
     transform-style: preserve-3d;
 
-    background-color: rgb(255, 0, 0, .25);
-    border: 3px solid red;
+    /* background-color: rgb(255, 0, 0, .25); */
+    outline: 3px solid red;
 }
+
+
 
 .parallax-layer {
     width: 100%;
@@ -25,39 +27,49 @@
 
     position: absolute;
     /* top: 0;
-    right: 0;
+    left: 0;
     bottom: 0;
-    left: 0; */
+    right: 0; */
+
+    transform-origin: center top;
+
+    /* display: flex;
+    flex-direction: column; */
+
+    object-fit: cover;
 }
-
-
 
 .foreground {
     translate: 0 0 -.5px;
-    /* scale: 1.5; */
+    scale: 1.5;
 
-    background-color: rgb(0, 255, 0, .25);
-    border: 3px solid green;
+    /* justify-content: flex-start;
+    align-items: flex-start; */
+
+    /* background-color: rgb(0, 255, 0, .25); */
+    outline: 3px solid green;
 }
 
 .background {
     translate: 0 0 -1px;
-    /* scale: 2; */
+    scale: 2;
 
-    background-color: rgb(0, 0, 255, .25);
-    border: 3px solid blue;
-}
+    /* justify-content: flex-end;
+    align-items: flex-end; */
 
-
-
-main .parallax-layer.background {
-    translate: 0 calc(var(--header-height) * 1) -1px;
+    /* background-color: rgb(0, 0, 255, .25); */
+    outline: 3px solid blue;
 }
 
 main .parallax-layer.foreground {
+    /* height: calc(100% / 1.5); */
     translate: 0 calc(var(--header-height) * .5) -.5px;
 }
 
+main .parallax-layer.background {
+    /* height: calc(100% / 2); */
+    translate: 0 calc(var(--header-height) * 1) -1px;
+}
 
 
 

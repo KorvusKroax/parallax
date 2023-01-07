@@ -1,0 +1,5 @@
+header {
+    /* width: calc(100% - 2rem); */
+    height: var(--header-height);
+    margin-inline: auto;
+}
