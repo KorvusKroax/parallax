@@ -7,14 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta author="Korvus">
 
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/parallax.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/navbar.css">
-    <link rel="stylesheet" href="css/sidebar.css">
-    <link rel="stylesheet" href="css/back_to_top.css">
+    <link rel="stylesheet" href="style.css">
 
-    <script src="js/back_to_top.js" defer></script>
+    <script src="script.js" defer></script>
 
     <title>parallax</title>
 </head>
