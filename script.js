@@ -3,10 +3,5 @@ const parallax = document.querySelector(".parallax");
 
 parallax.onscroll = () =>
 {
-	backToTopButton.style.display = parallax.scrollTop > 50 ? "block" : "none";
-}
-
-function backToTop() 
-{
-    parallax.scrollTop = 0;
-}
+	backToTopButton.style.display = parallax.scrollTop > 50 ? "flex" : "none";
+};

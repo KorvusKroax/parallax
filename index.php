@@ -18,9 +18,11 @@
 
     <div class="parallax">
 
+        <div id="page-top"></div>
 
 
-        <header class="parallax-group">
+
+        <!-- <header class="parallax-group">
 
             <div class="parallax-layer background">
                 <h1>Header background</h1>
@@ -32,7 +34,7 @@
 
             <h1>Header</h1>
 
-        </header>
+        </header> -->
 
 
 
@@ -40,12 +42,12 @@
 
             <div class="parallax-layer background">
                 <h1>Main background</h1>
-                <!-- <img src="https://source.unsplash.com/random/500x600?sig=1"> -->
+                <img src="https://source.unsplash.com/random/800x400?sig=1">
             </div>
 
             <div class="parallax-layer foreground">
                 <h1>Main foreground</h1>
-                <!-- <img src="https://source.unsplash.com/random/300x800?sig=2"> -->
+                <img src="https://source.unsplash.com/random/400x800?sig=2">
             </div>
 
             <h1>Main</h1>
@@ -75,17 +77,17 @@
 
 
 
-        <footer>
+        <!-- <footer>
 
             <h1>Footer</h1>
 
-        </footer>
+        </footer> -->
 
 
 
     </div>
 
-    <button class="back-to-top-button" onclick="backToTop()">&#11165;</button>
+    <a class="back-to-top-button" href="#page-top">&#11165;</a>
 
 </body>
 

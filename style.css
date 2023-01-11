@@ -8,13 +8,13 @@
 
 
 
+
+
 *,
 *::before,
 *::after {
     box-sizing: border-box;
 }
-
-
 
 body {
     margin: 0;
@@ -29,7 +29,7 @@ header {
 }
 
 main {
-    max-width: min(100% - 2rem, 70rem);
+    max-width: min(100% - 2rem, 65rem);
     margin-inline: auto;
 
     columns: 2;
@@ -58,20 +58,32 @@ h1 {
 
 
 .back-to-top-button {
-    padding: .25em .5em;
+    width: 2em;
+    height: 2em;
 
     position: fixed;
     bottom: 2em;
     right: 2em;
 
-    font-size: 1.25em;
-
     display: none;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.25em;
+    background-color: rgb(255, 255, 255, .5);
+    color: currentColor;
+
+    text-decoration: none;
+}
+
+.back-to-top-button:hover {
+    background-color: var(--logo-blue-color);
+    color: var(--background-color);
 }
 
 
 
-
+/* ---------------------------------------------------------------------------------------- */
 
 .parallax {
     height: 100vh;
@@ -80,7 +92,8 @@ h1 {
     perspective-origin: center top;
 
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: scroll;
+    /* -webkit-overflow-scrolling: touch; */
 
     scroll-behavior: smooth;
 }
@@ -89,8 +102,6 @@ h1 {
     position: relative;
 
     transform-style: preserve-3d;
-
-    outline: 3px solid red;
 }
 
 
@@ -100,10 +111,7 @@ h1 {
     height: 100%;
 
     position: absolute;
-    /* top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0; */
+    /* position: -webkit-sticky; */
 
     transform-origin: center top;
 
@@ -115,22 +123,22 @@ h1 {
 
 .foreground {
     translate: 0 0 -.5px;
-    /* scale: 1.5; */
+    /* scale: 1.5;  */
+    /* (perspective - distance) / perspective = scale*/
+    /* (1 - -.5) / 1 = 1.5 */
 
     /* justify-content: flex-start;
     align-items: flex-start; */
-
-    outline: 3px solid green;
 }
 
 .background {
     translate: 0 0 -1px;
     /* scale: 2; */
+    /* (perspective - distance) / perspective = scale*/
+    /* (1 - -1) / 1 = 2 */
 
     /* justify-content: flex-end;
     align-items: flex-end; */
-
-    outline: 3px solid blue;
 }
 
 /* main .parallax-layer.foreground {
@@ -142,6 +150,22 @@ main .parallax-layer.background {
     height: calc(100% / 2);
     translate: 0 calc(var(--header-height) * 1) -1px;
 } */
+
+
+
+
+
+.parallax-group {
+    outline: 3px solid red;
+}
+
+.parallax-layer.foreground {
+    outline: 3px solid green;
+}
+
+.parallax-layer.background {
+    outline: 3px solid blue;
+}
 
 
 
