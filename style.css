@@ -92,7 +92,7 @@ h1 {
     perspective-origin: center top;
 
     overflow-x: hidden;
-    overflow-y: scroll;
+    overflow-y: auto;
     /* -webkit-overflow-scrolling: touch; */
 
     scroll-behavior: smooth;
@@ -177,19 +177,15 @@ main .background {
     /* height: calc(100% / 2); */
     /* translate: 0 calc(var(--header-height) * 1) -1px; */
 
-    display: flex;
+    /* display: flex;
     justify-content: flex-end;
-    align-items: flex-end;
-
-    /* background-image: url("https://source.unsplash.com/random/400x800?sig=2");
-    background-repeat: no-repeat;
-    background-position: right bottom; */
+    align-items: flex-end; */
 }
 
-main .background img {
+/* main .background img {
     scale: 2;
     transform-origin: right bottom;
-}
+} */
 
 
 
