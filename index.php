@@ -41,17 +41,17 @@
         <main class="parallax-group">
 
             <div class="parallax-layer background">
-                <h1>Main background</h1>
-                <img class="bg-img" src="https://source.unsplash.com/random/800x400?sig=1">
+                <!-- <h1>Main background</h1> -->
+                <img src="https://source.unsplash.com/random/800x400?sig=1">
             </div>
 
             <div class="parallax-layer foreground">
-                <h1>Main foreground</h1>
-                <img class="fg-img" src="https://source.unsplash.com/random/400x800?sig=2">
+                <!-- <h1>Main foreground</h1> -->
+                <!-- <img src="https://source.unsplash.com/random/400x800?sig=2"> -->
             </div>
 
             <h1>Main</h1>
-            <img src="https://source.unsplash.com/random/400x800?sig=3">
+            <!-- <img src="https://source.unsplash.com/random/400x800?sig=3"> -->
 
             <p>
                 Aenean ipsum velit, tincidunt eu dignissim quis, aliquam sit amet est. Ut quis turpis lacus. Vestibulum rutrum nulla lobortis, viverra tortor a, varius metus. Donec vitae cursus est, id tempus ante. Pellentesque lacinia tincidunt massa, quis gravida ante consectetur nec. Nam pellentesque nisi diam. Maecenas semper ante eget lacus tempor, non efficitur tellus faucibus. Nam id varius purus, rhoncus laoreet neque. Aenean accumsan leo nisl, nec sollicitudin felis gravida ac. Nulla viverra pellentesque neque nec sollicitudin. Aenean at risus orci. Aenean efficitur velit vitae felis molestie, eget condimentum elit faucibus. Nunc mauris tortor, viverra vel varius non, interdum id nunc. Morbi et dapibus dui, id aliquam elit. Aliquam porttitor magna finibus, tempus nisi eget, facilisis tellus. Vivamus sed neque sit amet elit molestie eleifend.
