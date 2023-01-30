@@ -128,8 +128,9 @@ h1 {
 
 
 .foreground {
-    translate: 0 0 -.5px;
-    /* scale: 1.5;  */
+    transform: 
+        translateZ(-.5px),
+        scale(1.5); 
     /* (perspective - distance) / perspective = scale*/
     /* (1 - -0.5) / 1 = 1.5 */
 
@@ -138,8 +139,9 @@ h1 {
 }
 
 .background {
-    translate: 0 0 -1px;
-    /* scale: 2; */
+    transform:
+        translateZ(-1px),
+        scale(2);
     /* (perspective - distance) / perspective = scale*/
     /* (1 - -1) / 1 = 2 */
 
@@ -150,18 +152,18 @@ h1 {
 
 
 header .foreground {
-    scale: 1.5;
+    /* transform: scale(1.5); */
 }
 
 header .background {
-    scale: 2;
+    /* transform: scale(2); */
 }
 
 
 
 main .foreground {
     /* height: calc(100% / 1.5); */
-    /* translate: 0 calc(var(--header-height) * .5) -.5px; */
+    /* transform: translate(0, calc(var(--header-height) * .5), -.5px); */
 
     /* display: flex;
     justify-content: flex-start;
@@ -169,13 +171,13 @@ main .foreground {
 }
 
 /* main .foreground img {
-    scale: 1.5;
+    transform: scale(1.5);
     transform-origin: left top;
 } */
 
 main .background {
     /* height: calc(100% / 2); */
-    /* translate: 0 calc(var(--header-height) * 1) -1px; */
+    /* transform: translate(0, calc(var(--header-height) * 1), -1px); */
 
     /* display: flex;
     justify-content: flex-end;
@@ -183,7 +185,7 @@ main .background {
 }
 
 /* main .background img {
-    scale: 2;
+    transform: scale(2);
     transform-origin: right bottom;
 } */
 
